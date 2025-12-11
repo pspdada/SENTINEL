@@ -272,10 +272,11 @@ SENTINEL 数据集记录了 `LLaVA-v1.5`、`LLaVA-v1.6`、`Qwen2-VL` 和 `Qwen2.
 如果我们的模型/代码/数据/论文对您有帮助，请引用我们的论文并为我们点 ⭐️！
 
 ```bibtex
-@article{peng2025mitigating,
-  title={Mitigating Object Hallucinations via Sentence-Level Early Intervention},
+@inproceedings{peng2025mitigating,
+  title={Mitigating object hallucinations via sentence-level early intervention},
   author={Peng, Shangpin and Yang, Senqiao and Jiang, Li and Tian, Zhuotao},
-  journal={arXiv preprint arXiv:2507.12455},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={635--646},
   year={2025}
 }
 ```
