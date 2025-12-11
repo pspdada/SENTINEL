@@ -281,10 +281,11 @@ We strictly follow the official [LLaVA](https://github.com/haotian-liu/LLaVA) ev
 If you find our model/code/data/paper helpful, please consider citing our papers 📝 and starring us ⭐️！
 
 ```bibtex
-@article{peng2025mitigating,
-  title={Mitigating Object Hallucinations via Sentence-Level Early Intervention},
+@inproceedings{peng2025mitigating,
+  title={Mitigating object hallucinations via sentence-level early intervention},
   author={Peng, Shangpin and Yang, Senqiao and Jiang, Li and Tian, Zhuotao},
-  journal={arXiv preprint arXiv:2507.12455},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={635--646},
   year={2025}
 }
 ```
