@@ -13,6 +13,11 @@
 <a href='https://github.com/pspdada/SENTINEL/blob/main/LICENSE'>
 <img src='https://img.shields.io/badge/LICENSE-Apache_2.0-yellow'></a>
 
+<a href='https://modelscope.cn/datasets/pspdada/SENTINEL'>
+<img src='https://img.shields.io/badge/Datasets-🤖ModelScope-pink'></a>
+<a href='https://modelscope.cn/collections/pspdada/SENTINEL'>
+<img src='https://img.shields.io/badge/Models-🤖ModelScope-red'></a>
+
 <a href="/docs/README_zh.md">中文</a> | <b>English</b>
 
 **[Shangpin Peng](https://scholar.google.com/citations?user=mKnBrRAAAAAJ&hl=zh-CN)\*<sup>1</sup>**,&emsp;
@@ -126,17 +131,17 @@ It contains the following components:
 
 ## 📦 Model Weights
 
-We provide the model weights mentioned in our paper, all of which are trained using **LoRA**. These weights can be seamlessly plugged into the corresponding base models for inference or further fine-tuning.
+We provide the model weights mentioned in our paper, all of which are trained using **LoRA**. These weights can be seamlessly plugged into the corresponding base models for inference or further fine-tuning. Please refer to the table below for details on the base models, training data, and the corresponding SENTINEL models.
 
-| Base Model             | Training Data Size | LoRA |                                                                                                                              Download                                                                                                                              |
-| ---------------------- | ------------------ | :--: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| LLaVA-v1.5-7B          | 8.6K               |  ✅  |            [🤗 Base](https://huggingface.co/liuhaotian/llava-v1.5-7b) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_5_7b_SENTINEL_8_6k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/LLaVA-v1.5-7B-SENTINEL)            |
-| LLaVA-v1.5-13B         | 7.0K               |  ✅  |           [🤗 Base](https://huggingface.co/liuhaotian/llava-v1.5-13b) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_5_13b_SENTINEL_7k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/LLaVA-v1.5-13B-SENTINEL)            |
-| LLaVA-v1.6-Vicuna-7B   | 7.0K               |  ✅  |  [🤗 Base](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_6_Vicuna_7b_SENTINEL_7k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/LLaVA-v1.6-Vicuna-7B-SENTINEL)   |
-| LLaVA-v1.6-Vicuna-13B  | 7.0K               |  ✅  | [🤗 Base](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-13b) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_6_Vicuna_13b_SENTINEL_7k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/LLaVA-v1.6-Vicuna-13B-SENTINEL) |
-| Qwen2-VL-2B-Instruct   | 12K                |  ✅  |         [🤗 Base](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_VL_2B_Instruct_SENTINEL_12k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/Qwen2-VL-2B-SENTINEL)          |
-| Qwen2-VL-7B-Instruct   | 7.0K               |  ✅  |          [🤗 Base](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_VL_7B_Instruct_SENTINEL_7k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/Qwen2-VL-7B-SENTINEL)          |
-| Qwen2.5-VL-7B-Instruct | 7.0K               |  ✅  |       [🤗 Base](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) / [📄 Data](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_5_VL_7B_Instruct_SENTINEL_7k.json) / [🤗 SENTINEL](https://huggingface.co/psp-dada/Qwen2.5-VL-7B-SENTINEL)       |
+| Base Model                                                                          | Training Data (Scale)                                                                                                                                                | LoRA |                                                                                  SENTINEL Model                                                                                  |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [🤗](https://huggingface.co/liuhaotian/llava-v1.5-7b) LLaVA-v1.5-7B                 | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_5_7b_SENTINEL_8_6k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 8.6K        |  ✅  |              [🤗](https://huggingface.co/psp-dada/LLaVA-v1.5-7B-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/LLaVA-v1.5-7B-SENTINEL) LLaVA-v1.5-7B-SENTINEL               |
+| [🤗](https://huggingface.co/liuhaotian/llava-v1.5-13b) LLaVA-v1.5-13B               | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_5_13b_SENTINEL_7k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 7.0K         |  ✅  |             [🤗](https://huggingface.co/psp-dada/LLaVA-v1.5-13B-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/LLaVA-v1.5-13B-SENTINEL) LLaVA-v1.5-13B-SENTINEL             |
+| [🤗](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b) LLaVA-v1.6-Vicuna-7B   | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_6_Vicuna_7b_SENTINEL_7k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 7.0K   |  ✅  |    [🤗](https://huggingface.co/psp-dada/LLaVA-v1.6-Vicuna-7B-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/LLaVA-v1.6-Vicuna-7B-SENTINEL) LLaVA-v1.6-Vicuna-7B-SENTINEL    |
+| [🤗](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-13b) LLaVA-v1.6-Vicuna-13B | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/LLaVA_v1_6_Vicuna_13b_SENTINEL_7k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 7.0K  |  ✅  |  [🤗](https://huggingface.co/psp-dada/LLaVA-v1.6-Vicuna-13B-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/LLaVA-v1.6-Vicuna-13B-SENTINEL) LLaVA-v1.6-Vicuna-13B-SENTINEL   |
+| [🤗](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) Qwen2-VL-2B-Instruct         | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_VL_2B_Instruct_SENTINEL_12k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 12K   |  ✅  |    [🤗](https://huggingface.co/psp-dada/Qwen2-VL-2B-Instruct-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/Qwen2-VL-2B-Instruct-SENTINEL) Qwen2-VL-2B-Instruct-SENTINEL    |
+| [🤗](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) Qwen2-VL-7B-Instruct         | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_VL_7B_Instruct_SENTINEL_7k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 7.0K   |  ✅  |    [🤗](https://huggingface.co/psp-dada/Qwen2-VL-7B-Instruct-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/Qwen2-VL-7B-Instruct-SENTINEL) Qwen2-VL-7B-Instruct-SENTINEL    |
+| [🤗](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) Qwen2.5-VL-7B-Instruct     | [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL/blob/main/Qwen2_5_VL_7B_Instruct_SENTINEL_7k.json) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) 7.0K |  ✅  | [🤗](https://huggingface.co/psp-dada/Qwen2.5-VL-7B-Instruct-SENTINEL) [🤖](https://modelscope.cn/models/pspdada/Qwen2.5-VL-7B-Instruct-SENTINEL) Qwen2.5-VL-7B-Instruct-SENTINEL |
 
 ## 💻 Environment Setup
 
