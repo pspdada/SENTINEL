@@ -6,7 +6,7 @@
 <img src='https://img.shields.io/badge/Paper-Arxiv-purple'></a>
 <a href='https://huggingface.co/datasets/psp-dada/SENTINEL'>
 <img src='https://img.shields.io/badge/Datasets-HF-Green'></a>
-<a href='https://huggingface.co/collections/psp-dada/sentinel-686ea70912079af142015286'>
+<a href='https://huggingface.co/collections/psp-dada/sentinel'>
 <img src='https://img.shields.io/badge/Models-HF-orange'></a>
 <a href='https://huggingface.co/papers/2507.12455'>
 <img src='https://img.shields.io/badge/Discussion-HF-blue'></a>
