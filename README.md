@@ -101,7 +101,7 @@ SENTINEL achieves **up to 92% reduction** in hallucinations and outperforms prio
 
 ## 📚 Dataset
 
-We present the [**SENTINEL Dataset**](https://huggingface.co/datasets/psp-dada/SENTINEL), a in-domain multimodal preference dataset for mitigating object hallucination constructed **without** human annotation.
+We present the [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) **SENTINEL Dataset**, a in-domain multimodal preference dataset for mitigating object hallucination constructed **without** human annotation.
 
 <details>
 <summary>Dataset details</summary>

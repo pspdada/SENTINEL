@@ -99,7 +99,7 @@ SENTINEL 在减少幻觉方面最多可达 **92%** 的降低，并在 Object Hal
 
 ## 📚 数据集
 
-我们发布了 [**SENTINEL 数据集**](https://huggingface.co/datasets/psp-dada/SENTINEL)，这是一个无需人工标注即可构建的领域内多模态偏好数据集，用于缓解对象幻觉。
+我们发布了 [🤗](https://huggingface.co/datasets/psp-dada/SENTINEL) [🤖](https://modelscope.cn/datasets/pspdada/SENTINEL) **SENTINEL 数据集**，这是一个无需人工标注即可构建的领域内多模态偏好数据集，用于缓解对象幻觉。
 
 <details>
 <summary>数据集详情</summary>
