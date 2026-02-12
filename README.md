@@ -275,12 +275,6 @@ We strictly follow the official [LLaVA](https://github.com/haotian-liu/LLaVA) ev
 
 **For more information, please see our [Evaluation README file](/docs/Evaluation.md).**
 
-## 🙏 Acknowledgement <!-- omit in toc -->
-
-- [LLaVA](https://github.com/haotian-liu/LLaVA): LLaVA-v1.5 is an excellent open-source project on MLLMs.
-- [HA-DPO](https://github.com/opendatalab/HA-DPO): Our code for the LLaVA-v1.5 part is based on HA-DPO, an influential work in the field of object hallucination in MLLMs. It provided us with valuable inspiration.
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): A unified and efficient fine-tuning framework of LLMs. Our implementations for LLaVA-v1.6, Qwen2-VL, and Qwen2.5-VL are based on this framework.
-
 ## 📝 Citation
 
 If you find our model/code/data/paper helpful, please consider citing our papers 📝 and starring us ⭐️！
@@ -294,6 +288,12 @@ If you find our model/code/data/paper helpful, please consider citing our papers
   year={2025}
 }
 ```
+
+## 🙏 Acknowledgement <!-- omit in toc -->
+
+- [LLaVA](https://github.com/haotian-liu/LLaVA): LLaVA-v1.5 is an excellent open-source project on MLLMs.
+- [HA-DPO](https://github.com/opendatalab/HA-DPO): Our code for the LLaVA-v1.5 part is based on HA-DPO, an influential work in the field of object hallucination in MLLMs. It provided us with valuable inspiration.
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): A unified and efficient fine-tuning framework of LLMs. Our implementations for LLaVA-v1.6, Qwen2-VL, and Qwen2.5-VL are based on this framework.
 
 ## 📧 Contact us <!-- omit in toc -->
 

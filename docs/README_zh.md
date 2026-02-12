@@ -266,12 +266,6 @@ SENTINEL 数据集记录了 `LLaVA-v1.5`、`LLaVA-v1.6`、`Qwen2-VL` 和 `Qwen2.
 
 **更多信息请见我们的 [评估说明](/docs/Evaluation.md)。**
 
-## 🙏 致谢 <!-- omit in toc -->
-
-- [LLaVA](https://github.com/haotian-liu/LLaVA)：提供了 LLaVA-v1.5 模型的出色的 MLLM 开源项目。
-- [HA-DPO](https://github.com/opendatalab/HA-DPO)：一个对多模态模型物体幻觉领域有较大贡献的仓库，我们 LLaVA-v1.5 部分代码基于此。
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一高效的大模型微调框架，我们的 LLaVA-v1.6、Qwen2-VL 和 Qwen2.5-VL 实现基于此。
-
 ## 📝 引用
 
 如果我们的模型/代码/数据/论文对您有帮助，请引用我们的论文并为我们点 ⭐️！
@@ -285,6 +279,12 @@ SENTINEL 数据集记录了 `LLaVA-v1.5`、`LLaVA-v1.6`、`Qwen2-VL` 和 `Qwen2.
   year={2025}
 }
 ```
+
+## 🙏 致谢 <!-- omit in toc -->
+
+- [LLaVA](https://github.com/haotian-liu/LLaVA)：提供了 LLaVA-v1.5 模型的出色的 MLLM 开源项目。
+- [HA-DPO](https://github.com/opendatalab/HA-DPO)：一个对多模态模型物体幻觉领域有较大贡献的仓库，我们 LLaVA-v1.5 部分代码基于此。
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一高效的大模型微调框架，我们的 LLaVA-v1.6、Qwen2-VL 和 Qwen2.5-VL 实现基于此。
 
 ## 📧 联系我们 <!-- omit in toc -->
 
